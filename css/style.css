@@ -40,7 +40,8 @@ html{scroll-padding-top:56px}
 .hero__shade{position:absolute;inset:0;background:linear-gradient(rgba(0,0,0,.12),rgba(0,0,0,.05) 40%,rgba(0,0,0,.3))}
 .hero__brand{position:absolute;left:50%;top:62%;width:min(62vw,720px);transform:translate(-50%,-50%)}
 .hero__logo{width:100%;height:auto;filter:drop-shadow(0 2px 14px rgba(0,0,0,.25))}
-.hero__role{margin:-.35em 0 0;padding-right:11%;text-align:right;font-family:var(--wide);font-stretch:125%;font-variation-settings:"wdth" 125;font-weight:400;text-transform:uppercase;font-size:clamp(9px,.95vw,12px);letter-spacing:.2em;color:#dbd9d7;text-shadow:0 1px 8px rgba(0,0,0,.4)}
+.hero__brand{container-type:inline-size}
+.hero__role{position:absolute;left:58.8%;right:11.4%;bottom:1.6%;margin:0;padding:0;text-align:right;white-space:nowrap;font-family:var(--wide);font-stretch:125%;font-variation-settings:"wdth" 125;font-weight:400;text-transform:uppercase;font-size:clamp(6px,.62vw,9px);font-size:1.26cqw;letter-spacing:.12em;line-height:1;color:#e9e7e4;text-shadow:0 1px 8px rgba(0,0,0,.45)}
 
 /* grano de película sobre el rojo */
 .band,.contact{position:relative;isolation:isolate}
@@ -100,7 +101,7 @@ html{scroll-padding-top:56px}
 .more__btn:focus-visible{outline:2px solid var(--red-hi);outline-offset:6px}
 
 /* about (texto igual que antes; tipografías nuevas en los títulos) */
-.about{position:relative;display:flex;align-items:center;min-height:max(440px,42vw);padding:clamp(40px,6vw,80px) var(--gutter);overflow:hidden;margin-top:clamp(40px,6vw,90px)}
+.about{position:relative;display:flex;align-items:center;min-height:max(440px,calc(100svh - 56px));padding:clamp(40px,6vw,80px) var(--gutter);overflow:hidden;margin-top:clamp(40px,6vw,90px)}
 .about__bg{position:absolute;inset:0;background:#000 url("../assets/img/about-bg.jpg") center/cover no-repeat}
 .about__bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.15),rgba(0,0,0,.55) 45%,rgba(0,0,0,.55)),linear-gradient(#000,transparent 18%,transparent 82%,#000)}
 .about__text{position:relative;margin-left:36%;width:min(54%,760px);font-size:clamp(13px,1.15vw,15px);letter-spacing:.03em;text-align:justify;color:rgba(255,255,255,.92);text-wrap:pretty}
@@ -112,8 +113,8 @@ html{scroll-padding-top:56px}
 /* digital & motion */
 
 /* contacto, en rojo como la franja */
-.contact{margin-top:clamp(64px,9vw,140px);background:var(--red);color:var(--cream);text-align:center;padding:clamp(64px,9vw,120px) var(--gutter) 0;overflow:hidden}
-.contact__top{display:flex;flex-direction:column;align-items:center}
+.contact{margin-top:0;min-height:100svh;display:flex;flex-direction:column;justify-content:space-between;background:var(--red);color:var(--cream);text-align:center;padding:calc(56px + clamp(32px,6vw,80px)) var(--gutter) 0;overflow:hidden}
+.contact__top{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .contact__cta{margin:0 0 clamp(28px,4vw,48px);font-family:var(--wide);font-stretch:112%;font-variation-settings:"wdth" 112;font-weight:800;font-size:clamp(28px,4.4vw,62px);line-height:1.08;letter-spacing:-.025em}
 .contact__list{list-style:none;margin:0 0 30px;padding:0;display:flex;flex-direction:column;align-items:center;gap:10px;font-family:var(--wide);font-stretch:125%;font-variation-settings:"wdth" 125;font-weight:500;font-size:clamp(12px,1.2vw,15px);letter-spacing:.14em;text-transform:uppercase;line-height:1}
 .contact__list a{display:block;text-decoration:none;padding:6px 0;border-bottom:1px solid transparent;transition:border-color .2s}
@@ -122,7 +123,7 @@ html{scroll-padding-top:56px}
 .contact__social a{display:grid;place-items:center;width:46px;height:46px;border:1px solid rgba(241,233,221,.6);border-radius:50%;transition:background .2s,color .2s}
 .contact__social svg{width:22px;height:22px}
 .contact__social a:hover{background:var(--cream);color:var(--red)}
-.contact__legal{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;margin:clamp(64px,9vw,120px) 0 0;padding:16px 0 max(18px,env(safe-area-inset-bottom,0px));border-top:1px solid rgba(241,233,221,.45);font-family:var(--wide);font-stretch:125%;font-variation-settings:"wdth" 125;font-size:10px;letter-spacing:.14em;text-transform:uppercase}
+.contact__legal{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;margin:clamp(40px,6vw,80px) 0 0;padding:16px 0 max(18px,env(safe-area-inset-bottom,0px));border-top:1px solid rgba(241,233,221,.45);font-family:var(--wide);font-stretch:125%;font-variation-settings:"wdth" 125;font-size:10px;letter-spacing:.14em;text-transform:uppercase}
 .contact :focus-visible{outline-color:var(--cream)}
 
 /* visor de video */
@@ -162,6 +163,7 @@ html{scroll-padding-top:56px}
 }
 @media (max-width:560px){
   .hero__brand{width:80vw;top:60%}
+  .hero__role{position:static;margin:-.4em 0 0;padding-right:11%;font-size:9px;letter-spacing:.16em}
   .nav{font-size:10px}
   .nav__brand{display:none}
   .nav{justify-content:flex-end}
