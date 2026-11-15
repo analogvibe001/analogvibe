@@ -82,7 +82,7 @@ window.SITE = {
       name: "Tengo algo que confesarte", sub: "Cortometraje", credit: "Dirección de fotografía",
       title: "Tengo algo que confesarte — Cortometraje",
       desc: "Dirección: Sergio Ortiz Guion: Ariana Solórzano Asistente de dirección: Paula Zambrano Producción: Ariana Solórzano y Keyla Ayala Dirección de arte: Cristel Rivadeneira, Ariana Solórzano y Keyla Ayala Dirección de fotografía: Amalin Bustamante y Mauricio Mena Edición y Montaje: Johanna Ortiz y Sergio Ortiz Sonido: Johanna Ortiz",
-      thumb: "assets/img/thumbs/_TCeEmALuGg.jpg", youtube: "_TCeEmALuGg"
+      thumb: "assets/img/thumbs/tengo-algo-que-confesarte.jpg", youtube: "_TCeEmALuGg"
     },
     {
       block: "cine", cats: ["doc"],
