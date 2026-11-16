@@ -14,7 +14,7 @@
     b.type = "button"; b.className = "tile" + (p.vertical ? " tile--v" : "");
     b.setAttribute("aria-label", "Reproducir: " + p.title);
     b.innerHTML = (p.vertical ? '<img class="tile__bg" alt="" aria-hidden="true" loading="lazy" decoding="async" src="' + esc(p.thumb) + '">' : "") +
-      '<img class="tile__media" alt="" loading="lazy" decoding="async" width="1280" height="720" src="' + esc(p.thumb) + '">' +
+      '<img class="tile__media" alt="' + esc(p.title) + '" loading="lazy" decoding="async" width="1280" height="720" src="' + esc(p.thumb) + '">' +
       '<span class="tile__shade"></span><span class="tile__tint"></span>' +
       '<span class="tile__text"><span class="tile__name">' + esc(p.name || p.title) + '</span>' +
       (p.sub ? '<span class="tile__sub">' + esc(p.sub) + '</span>' : "") + '</span>' +
