@@ -123,6 +123,13 @@ window.SITE = {
       thumb: "assets/img/thumbs/tiktok-harry-potter-listo.jpg", src: "assets/video/work/tiktok-harry-potter-listo.mp4"
     },
     {
+      block: "digital", cats: ["screens"],
+      name: "Menú Frozen LiSTO!", sub: "Menuboard horizontal", credit: "Pantallas · LiSTO!",
+      title: "Menuboard Frozen | LiSTO!",
+      desc: "Animación para menuboard horizontal de los Frozen LiSTO! by drinkteam.",
+      thumb: "assets/img/thumbs/menuboard-listo.jpg", src: "assets/video/work/menuboard-listo.mp4"
+    },
+    {
       block: "digital", cats: ["social"], vertical: true,
       name: "Cuarta ganadora", sub: "La Súper Tanqueada del Año", credit: "Reel · Primax",
       title: "La Súper Tanqueada del Año | Cuarta ganadora",
@@ -130,11 +137,11 @@ window.SITE = {
       thumb: "assets/img/thumbs/cuarta-ganadora-primax.jpg", src: "assets/video/work/cuarta-ganadora-primax.mp4"
     },
     {
-      block: "digital", cats: ["social"], vertical: true,
-      name: "Riocentro Plaza", sub: "Reel de producción", credit: "Reel · Riocentro Plaza",
-      title: "Reel de producción | Riocentro Plaza",
-      desc: "Reel vertical de producción para Riocentro Plaza, noviembre 2026.",
-      thumb: "assets/img/thumbs/reel-riocentro-plaza.jpg", src: "assets/video/work/reel-riocentro-plaza.mp4"
+      block: "digital", cats: ["perf"],
+      name: "Donde la Navidad nos envuelve", sub: "El Paseo Shopping · YouTube", credit: "YouTube skippable · 16 s",
+      title: "Donde la Navidad nos envuelve | El Paseo Shopping",
+      desc: "Anuncio de 16 segundos para YouTube skippable de El Paseo Shopping.",
+      thumb: "assets/img/thumbs/paseo-youtube.jpg", src: "assets/video/work/paseo-youtube.mp4"
     },
     {
       block: "digital", cats: ["motion"], vertical: true,
@@ -145,31 +152,17 @@ window.SITE = {
     },
     {
       block: "digital", cats: ["screens"],
-      name: "Menú Frozen LiSTO!", sub: "Menuboard horizontal", credit: "Pantallas · LiSTO!",
-      title: "Menuboard Frozen | LiSTO!",
-      desc: "Animación para menuboard horizontal de los Frozen LiSTO! by drinkteam.",
-      thumb: "assets/img/thumbs/menuboard-listo.jpg", src: "assets/video/work/menuboard-listo.mp4"
-    },
-    {
-      block: "digital", cats: ["screens"],
       name: "Promos diarias LiSTO!", sub: "Pantallas en tienda", credit: "Mockup · LiSTO!",
       title: "Promos diarias en pantallas | LiSTO!",
       desc: "Mockup de las promos diarias animadas en las pantallas verticales de las tiendas LiSTO!.",
       thumb: "assets/img/thumbs/promos-diarias-listo.jpg", src: "assets/video/work/promos-diarias-listo.mp4"
     },
     {
-      block: "digital", cats: ["screens"],
-      name: "Pantallas dobles", sub: "Halloween · Test", credit: "Pantallas · LiSTO!",
-      title: "Pantallas dobles Halloween | LiSTO!",
-      desc: "Prueba de animación para pantallas dobles en tienda, edición Halloween.",
-      thumb: "assets/img/thumbs/pantallas-dobles-halloween.jpg", src: "assets/video/work/pantallas-dobles-halloween.mp4"
-    },
-    {
-      block: "digital", cats: ["perf"],
-      name: "Donde la Navidad nos envuelve", sub: "El Paseo Shopping · YouTube", credit: "YouTube skippable · 16 s",
-      title: "Donde la Navidad nos envuelve | El Paseo Shopping",
-      desc: "Anuncio de 16 segundos para YouTube skippable de El Paseo Shopping.",
-      thumb: "assets/img/thumbs/paseo-youtube.jpg", src: "assets/video/work/paseo-youtube.mp4"
+      block: "digital", cats: ["social"], vertical: true,
+      name: "Riocentro Plaza", sub: "Reel de producción", credit: "Reel · Riocentro Plaza",
+      title: "Reel de producción | Riocentro Plaza",
+      desc: "Reel vertical de producción para Riocentro Plaza, noviembre 2026.",
+      thumb: "assets/img/thumbs/reel-riocentro-plaza.jpg", src: "assets/video/work/reel-riocentro-plaza.mp4"
     },
     {
       block: "digital", cats: ["perf"],
@@ -177,6 +170,13 @@ window.SITE = {
       title: "Es maravilloso, si es Navidoso | Riocentro",
       desc: "Anuncio de 16 segundos para YouTube skippable de Riocentro.",
       thumb: "assets/img/thumbs/riocentro-youtube.jpg", src: "assets/video/work/riocentro-youtube.mp4"
+    },
+    {
+      block: "digital", cats: ["screens"],
+      name: "Pantallas dobles", sub: "Halloween · Test", credit: "Pantallas · LiSTO!",
+      title: "Pantallas dobles Halloween | LiSTO!",
+      desc: "Prueba de animación para pantallas dobles en tienda, edición Halloween.",
+      thumb: "assets/img/thumbs/pantallas-dobles-halloween.jpg", src: "assets/video/work/pantallas-dobles-halloween.mp4"
     }
   ]
 };
