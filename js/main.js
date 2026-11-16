@@ -11,9 +11,9 @@
      ===================================================== */
   function makeTile(p) {
     var b = document.createElement("button");
-    b.type = "button"; b.className = "tile";
+    b.type = "button"; b.className = "tile" + (p.vertical ? " tile--v" : "");
     b.setAttribute("aria-label", "Reproducir: " + p.title);
-    b.innerHTML =
+    b.innerHTML = (p.vertical ? '<img class="tile__bg" alt="" aria-hidden="true" loading="lazy" decoding="async" src="' + esc(p.thumb) + '">' : "") +
       '<img class="tile__media" alt="" loading="lazy" decoding="async" width="1280" height="720" src="' + esc(p.thumb) + '">' +
       '<span class="tile__shade"></span><span class="tile__tint"></span>' +
       '<span class="tile__text"><span class="tile__name">' + esc(p.name || p.title) + '</span>' +
@@ -37,7 +37,7 @@
     var grid = section.querySelector(".grid");
     var moreBtn = section.querySelector(".more__btn");
     var countEl = section.querySelector(".work__count");
-    var pageSize = cfg.pageSize || 8;
+    var pageSize = (window.matchMedia && matchMedia("(max-width:700px)").matches) ? 4 : (cfg.pageSize || 8);
     var state = { cat: "all", shown: pageSize, cur: [], stop: null };
     var debris = document.createElement("div");
     debris.className = "debris"; debris.setAttribute("aria-hidden", "true");
@@ -185,7 +185,16 @@
       f.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
       f.allowFullscreen = true;
       screen.appendChild(f);
-      link.href = "https://www.youtube.com/watch?v=" + p.youtube; link.hidden = false;
+      link.href = "https://www.youtube.com/watch?v=" + p.youtube; link.textContent = "Ver en YouTube"; link.hidden = false;
+    } else if (p.instagram) {
+      var ig = document.createElement("iframe");
+      ig.src = "https://www.instagram.com/reel/" + p.instagram + "/embed/";
+      ig.title = p.title;
+      ig.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+      ig.allowFullscreen = true;
+      ig.setAttribute("scrolling", "no");
+      screen.appendChild(ig);
+      link.href = "https://www.instagram.com/reel/" + p.instagram + "/"; link.textContent = "Ver en Instagram"; link.hidden = false;
     } else if (p.src) {
       var v = document.createElement("video");
       v.src = p.src; v.controls = true; v.autoplay = true; v.playsInline = true;
