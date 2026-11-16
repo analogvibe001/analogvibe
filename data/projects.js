@@ -33,10 +33,8 @@ window.SITE = {
       pageSize: 8,
       categories: [
         ["all", "All"],
-        ["social", "Social / UGC"],
-        ["perf", "Performance"],
-        ["screens", "Pantallas"],
-        ["motion", "Motion Graphics"]
+        ["social", "Social"],
+        ["motion", "Motion"]
       ]
     }
   },
@@ -123,7 +121,7 @@ window.SITE = {
       thumb: "assets/img/thumbs/tiktok-harry-potter-listo.jpg", src: "assets/video/work/tiktok-harry-potter-listo.mp4"
     },
     {
-      block: "digital", cats: ["screens"],
+      block: "digital", cats: ["motion"],
       name: "Menú Frozen LiSTO!", sub: "Menuboard horizontal", credit: "Pantallas · LiSTO!",
       title: "Menuboard Frozen | LiSTO!",
       desc: "Animación para menuboard horizontal de los Frozen LiSTO! by drinkteam.",
@@ -137,7 +135,7 @@ window.SITE = {
       thumb: "assets/img/thumbs/cuarta-ganadora-primax.jpg", src: "assets/video/work/cuarta-ganadora-primax.mp4"
     },
     {
-      block: "digital", cats: ["perf"],
+      block: "digital", cats: ["motion"],
       name: "Donde la Navidad nos envuelve", sub: "El Paseo Shopping · YouTube", credit: "YouTube skippable · 16 s",
       title: "Donde la Navidad nos envuelve | El Paseo Shopping",
       desc: "Anuncio de 16 segundos para YouTube skippable de El Paseo Shopping.",
@@ -151,7 +149,7 @@ window.SITE = {
       thumb: "assets/img/thumbs/maxito-sesamo-primax.jpg", src: "assets/video/work/maxito-sesamo-primax.mp4"
     },
     {
-      block: "digital", cats: ["screens"],
+      block: "digital", cats: ["motion"],
       name: "Promos diarias LiSTO!", sub: "Pantallas en tienda", credit: "Mockup · LiSTO!",
       title: "Promos diarias en pantallas | LiSTO!",
       desc: "Mockup de las promos diarias animadas en las pantallas verticales de las tiendas LiSTO!.",
@@ -165,14 +163,14 @@ window.SITE = {
       thumb: "assets/img/thumbs/reel-riocentro-plaza.jpg", src: "assets/video/work/reel-riocentro-plaza.mp4"
     },
     {
-      block: "digital", cats: ["perf"],
+      block: "digital", cats: ["motion"],
       name: "Es maravilloso, si es Navidoso", sub: "Riocentro · YouTube", credit: "YouTube skippable · 16 s",
       title: "Es maravilloso, si es Navidoso | Riocentro",
       desc: "Anuncio de 16 segundos para YouTube skippable de Riocentro.",
       thumb: "assets/img/thumbs/riocentro-youtube.jpg", src: "assets/video/work/riocentro-youtube.mp4"
     },
     {
-      block: "digital", cats: ["screens"],
+      block: "digital", cats: ["motion"],
       name: "Pantallas dobles", sub: "Halloween · Test", credit: "Pantallas · LiSTO!",
       title: "Pantallas dobles Halloween | LiSTO!",
       desc: "Prueba de animación para pantallas dobles en tienda, edición Halloween.",
