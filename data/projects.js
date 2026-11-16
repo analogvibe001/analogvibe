@@ -51,14 +51,14 @@ window.SITE = {
       name: "Always on the Run", sub: "New Balance, spec ad", credit: "iPhone 15 Pro · Apple Log · Dehancer Pro",
       title: "Always on the run |New balance Spec Ad | Apple Log | Dehancer",
       desc: "Spec ad for New Balance Iphone 15 pro Log Film Emulation thanks to Dehancer Pro",
-      thumb: "assets/img/thumbs/kL1WvA6N6kE.jpg", youtube: "kL1WvA6N6kE"
+      thumb: "assets/img/thumbs/kL1WvA6N6kE.jpg", src: "assets/video/cine/kL1WvA6N6kE.mp4"
     },
     {
       block: "cine", cats: ["short"],
       name: "Niagara Falls", sub: "Así vivimos Niagara Falls", credit: "",
       title: "Niagara Falls",
       desc: "Así vivimos Niagara Falls, increíble.",
-      thumb: "assets/img/thumbs/tCmc2-om3kg.jpg", youtube: "tCmc2-om3kg"
+      thumb: "assets/img/thumbs/tCmc2-om3kg.jpg", src: "assets/video/cine/tCmc2-om3kg.mp4"
     },
     {
       block: "cine", cats: ["short"],
@@ -72,7 +72,7 @@ window.SITE = {
       name: "Conocí Brooklyn Bridge", sub: "Film emulation", credit: "Sony FX30 · S-Log · Dehancer Pro",
       title: "Conocí Brooklyn Bridge | Film emulation Dehancer | Fx30",
       desc: "Film emulation realizado en Dehancer Pro Grabando en slog en la Sony Fx30",
-      thumb: "assets/img/thumbs/nCmjuqpgJh8.jpg", youtube: "nCmjuqpgJh8"
+      thumb: "assets/img/thumbs/nCmjuqpgJh8.jpg", src: "assets/video/cine/nCmjuqpgJh8.mp4"
     },
     {
       block: "cine", cats: ["short"],
@@ -93,21 +93,21 @@ window.SITE = {
       name: "New York", sub: "El orden del caos", credit: "Apple Log · Dehancer Pro",
       title: "New York | El orden del caos | Film emulation Dehancer | Apple Log",
       desc: "🦅",
-      thumb: "assets/img/thumbs/sqU7mamU6To.jpg", youtube: "sqU7mamU6To"
+      thumb: "assets/img/thumbs/sqU7mamU6To.jpg", src: "assets/video/cine/sqU7mamU6To.mp4"
     },
     {
       block: "cine", cats: ["short"],
       name: "Grand Central Terminal", sub: "Film emulation", credit: "iPhone 15 Pro · Apple Log · Dehancer Pro",
       title: "Grand Central Terminal | Film emulation Dehancer | Iphone 15 pro",
       desc: "Film emulation realizado en Dehancer Pro Grabando en Apple log en el iphone 15 pro",
-      thumb: "assets/img/thumbs/dOgVtiqxSsA.jpg", youtube: "dOgVtiqxSsA"
+      thumb: "assets/img/thumbs/dOgVtiqxSsA.jpg", src: "assets/video/cine/dOgVtiqxSsA.mp4"
     },
     {
       block: "cine", cats: ["short"],
       name: "Un día en Coney Island", sub: "Film emulation", credit: "iPhone 15 Pro · Apple Log · Dehancer Pro",
       title: "Un día en Coney Island | Film emulation Dehancer | Apple Log",
       desc: "Film emulation realizado en Dehancer Pro Grabando en Log con dl iphone 15 pro",
-      thumb: "assets/img/thumbs/kkV8BU-45BE.jpg", youtube: "kkV8BU-45BE"
+      thumb: "assets/img/thumbs/kkV8BU-45BE.jpg", src: "assets/video/cine/kkV8BU-45BE.mp4"
     },
 
     /* ------------------ DIGITAL & MOTION ------------------ */
