@@ -41,7 +41,7 @@ html{scroll-padding-top:56px}
 .hero__brand{position:absolute;left:50%;top:62%;width:min(62vw,720px);transform:translate(-50%,-50%)}
 .hero__logo{width:100%;height:auto;filter:drop-shadow(0 2px 14px rgba(0,0,0,.25))}
 .hero__brand{container-type:inline-size}
-.hero__role{position:absolute;left:58.8%;right:11.4%;bottom:8.5%;margin:0;padding:0;text-align:right;white-space:nowrap;font-family:var(--wide);font-stretch:125%;font-variation-settings:"wdth" 125;font-weight:400;text-transform:uppercase;font-size:clamp(6px,.62vw,9px);font-size:1.26cqw;letter-spacing:.12em;line-height:1;color:#e9e7e4;text-shadow:0 1px 8px rgba(0,0,0,.45)}
+.hero__role{display:none;position:absolute;left:58.8%;right:11.4%;bottom:8.5%;margin:0;padding:0;text-align:right;white-space:nowrap;font-family:var(--wide);font-stretch:125%;font-variation-settings:"wdth" 125;font-weight:400;text-transform:uppercase;font-size:clamp(6px,.62vw,9px);font-size:1.26cqw;letter-spacing:.12em;line-height:1;color:#e9e7e4;text-shadow:0 1px 8px rgba(0,0,0,.45)}
 
 /* grano de película sobre el rojo */
 .band,.contact{position:relative;isolation:isolate}
