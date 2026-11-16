@@ -65,7 +65,7 @@ window.SITE = {
       name: "Renne", sub: "Short film", credit: "",
       title: "Renne | Short Film",
       desc: "",
-      thumb: "assets/img/thumbs/FeL9aSXXf10.jpg", youtube: "FeL9aSXXf10"
+      thumb: "assets/img/thumbs/FeL9aSXXf10.jpg", src: "assets/video/cine/FeL9aSXXf10.mp4"
     },
     {
       block: "cine", cats: ["short"],
@@ -79,14 +79,14 @@ window.SITE = {
       name: "Tengo algo que confesarte", sub: "Cortometraje", credit: "Dirección de fotografía",
       title: "Tengo algo que confesarte — Cortometraje",
       desc: "Dirección: Sergio Ortiz Guion: Ariana Solórzano Asistente de dirección: Paula Zambrano Producción: Ariana Solórzano y Keyla Ayala Dirección de arte: Cristel Rivadeneira, Ariana Solórzano y Keyla Ayala Dirección de fotografía: Amalin Bustamante y Mauricio Mena Edición y Montaje: Johanna Ortiz y Sergio Ortiz Sonido: Johanna Ortiz",
-      thumb: "assets/img/thumbs/tengo-algo-que-confesarte.jpg", youtube: "_TCeEmALuGg"
+      thumb: "assets/img/thumbs/tengo-algo-que-confesarte.jpg", src: "assets/video/cine/_TCeEmALuGg.mp4"
     },
     {
       block: "cine", cats: ["doc"],
       name: "mm. | doc", sub: "Documental", credit: "Trabajo universitario",
       title: "mm. | doc",
       desc: "docu sobre mi, trabajo de la u",
-      thumb: "assets/img/thumbs/qFVOgsY5jgc.jpg", youtube: "qFVOgsY5jgc"
+      thumb: "assets/img/thumbs/qFVOgsY5jgc.jpg", src: "assets/video/cine/qFVOgsY5jgc.mp4"
     },
     {
       block: "cine", cats: ["short"],
