@@ -12,6 +12,7 @@
    - thumb  : imagen 16:9 de 1280 px en assets/img/thumbs/
    - UNO de estos para el video:
        youtube : "ID_DEL_VIDEO"           (el código después de v= en YouTube)
+       instagram : "ID_DEL_REEL"          (el código en instagram.com/reel/ID/)
        src     : "assets/video/archivo.mp4"  o una URL https://... (R2, Bunny, etc.)
    - vertical : true  si es un video 9:16 (reels, UGC, stories)
    ============================================================ */
@@ -111,18 +112,71 @@ window.SITE = {
       title: "Un día en Coney Island | Film emulation Dehancer | Apple Log",
       desc: "Film emulation realizado en Dehancer Pro Grabando en Log con dl iphone 15 pro",
       thumb: "assets/img/thumbs/kkV8BU-45BE.jpg", youtube: "kkV8BU-45BE"
-    }
+    },
 
-    /* ------------------ DIGITAL & MOTION ------------------ */
-    // Ejemplo: copia este bloque, quita las dos barras // del inicio de cada línea
-    // y pon una coma después de la llave del proyecto anterior.
-    // {
-    //   block: "digital", cats: ["social"], vertical: true,
-    //   name: "Nombre del reel", sub: "Cliente", credit: "Plataforma · qué hiciste",
-    //   title: "Nombre completo del reel",
-    //   desc: "Descripción larga",
-    //   thumb: "assets/img/thumbs/mi-reel.jpg",
-    //   src: "assets/video/mi-reel.mp4"
-    // }
+    /* ------------------ DIGITAL & MOTION ------------------ */,
+    {
+      block: "digital", cats: ["social"], vertical: true,
+      name: "Harry Potter en LiSTO!", sub: "TikTok · 25 Years of Magic", credit: "TikTok · LiSTO!",
+      title: "Harry Potter 25 Years of Magic | LiSTO!",
+      desc: "Pieza vertical para TikTok de la colección Harry Potter 25 Years of Magic en LiSTO!, con efectos y producción propia.",
+      thumb: "assets/img/thumbs/tiktok-harry-potter-listo.jpg", src: "assets/video/work/tiktok-harry-potter-listo.mp4"
+    },
+    {
+      block: "digital", cats: ["social"], vertical: true,
+      name: "Cuarta ganadora", sub: "La Súper Tanqueada del Año", credit: "Reel · Primax",
+      title: "La Súper Tanqueada del Año | Cuarta ganadora",
+      desc: "Reel con la cuarta ganadora de La Súper Tanqueada del Año de Primax: un año de gasolina Super G-Prix gratis.",
+      thumb: "assets/img/thumbs/cuarta-ganadora-primax.jpg", src: "assets/video/work/cuarta-ganadora-primax.mp4"
+    },
+    {
+      block: "digital", cats: ["social"], vertical: true,
+      name: "Riocentro Plaza", sub: "Reel de producción", credit: "Reel · Riocentro Plaza",
+      title: "Reel de producción | Riocentro Plaza",
+      desc: "Reel vertical de producción para Riocentro Plaza, noviembre 2026.",
+      thumb: "assets/img/thumbs/reel-riocentro-plaza.jpg", src: "assets/video/work/reel-riocentro-plaza.mp4"
+    },
+    {
+      block: "digital", cats: ["motion"], vertical: true,
+      name: "Maxito y la Súper Tanqueada", sub: "Primax · Animación", credit: "Animación · Primax",
+      title: "Maxito Sésamo | Primax",
+      desc: "Animación del personaje Maxito integrada con imagen real para la campaña La Súper Tanqueada del Año de Primax.",
+      thumb: "assets/img/thumbs/maxito-sesamo-primax.jpg", src: "assets/video/work/maxito-sesamo-primax.mp4"
+    },
+    {
+      block: "digital", cats: ["screens"],
+      name: "Menú Frozen LiSTO!", sub: "Menuboard horizontal", credit: "Pantallas · LiSTO!",
+      title: "Menuboard Frozen | LiSTO!",
+      desc: "Animación para menuboard horizontal de los Frozen LiSTO! by drinkteam.",
+      thumb: "assets/img/thumbs/menuboard-listo.jpg", src: "assets/video/work/menuboard-listo.mp4"
+    },
+    {
+      block: "digital", cats: ["screens"],
+      name: "Promos diarias LiSTO!", sub: "Pantallas en tienda", credit: "Mockup · LiSTO!",
+      title: "Promos diarias en pantallas | LiSTO!",
+      desc: "Mockup de las promos diarias animadas en las pantallas verticales de las tiendas LiSTO!.",
+      thumb: "assets/img/thumbs/promos-diarias-listo.jpg", src: "assets/video/work/promos-diarias-listo.mp4"
+    },
+    {
+      block: "digital", cats: ["screens"],
+      name: "Pantallas dobles", sub: "Halloween · Test", credit: "Pantallas · LiSTO!",
+      title: "Pantallas dobles Halloween | LiSTO!",
+      desc: "Prueba de animación para pantallas dobles en tienda, edición Halloween.",
+      thumb: "assets/img/thumbs/pantallas-dobles-halloween.jpg", src: "assets/video/work/pantallas-dobles-halloween.mp4"
+    },
+    {
+      block: "digital", cats: ["perf"],
+      name: "Donde la Navidad nos envuelve", sub: "El Paseo Shopping · YouTube", credit: "YouTube skippable · 16 s",
+      title: "Donde la Navidad nos envuelve | El Paseo Shopping",
+      desc: "Anuncio de 16 segundos para YouTube skippable de El Paseo Shopping.",
+      thumb: "assets/img/thumbs/paseo-youtube.jpg", src: "assets/video/work/paseo-youtube.mp4"
+    },
+    {
+      block: "digital", cats: ["perf"],
+      name: "Es maravilloso, si es Navidoso", sub: "Riocentro · YouTube", credit: "YouTube skippable · 16 s",
+      title: "Es maravilloso, si es Navidoso | Riocentro",
+      desc: "Anuncio de 16 segundos para YouTube skippable de Riocentro.",
+      thumb: "assets/img/thumbs/riocentro-youtube.jpg", src: "assets/video/work/riocentro-youtube.mp4"
+    }
   ]
 };
