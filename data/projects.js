@@ -44,7 +44,7 @@ window.SITE = {
       name: "Las chicas no patinan", sub: "Documental", credit: "Tesis de graduación",
       title: "Las chicas no patinan | Documental por Mauricio Mena",
       desc: "Documental realizado para mi tesis de graduación de producción audiovisual. Espero sea de su agrado",
-      thumb: "assets/img/thumbs/0KZmv_dgKTw.jpg", youtube: "0KZmv_dgKTw"
+      thumb: "assets/img/thumbs/0KZmv_dgKTw.jpg", src: "https://github.com/analogvibe001/analogvibe/releases/download/mediaportafolio/documental-las-chicas-no-patinan.mp4"
     },
     {
       block: "cine", cats: ["com"],
