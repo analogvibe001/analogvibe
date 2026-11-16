@@ -243,6 +243,15 @@
   var navEl = document.querySelector(".nav");
   function navState() { navEl.classList.toggle("is-solid", window.scrollY > 40); }
   navState(); window.addEventListener("scroll", navState, { passive: true });
+  /* WHAT / logo: vuelve arriba y deja la dirección limpia (sin #what) */
+  document.querySelectorAll('a[href="#what"]').forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+      if (history.replaceState) history.replaceState(null, "", location.pathname + location.search);
+    });
+  });
+  if (location.hash === "#what") { history.replaceState(null, "", location.pathname + location.search); }
   var links = {};
   document.querySelectorAll("[data-spy]").forEach(function (a) { links[a.getAttribute("data-spy")] = a; });
   if ("IntersectionObserver" in window) {
