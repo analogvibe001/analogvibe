@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://analogvibe001.github.io/analogvibe/sitemap.xml
